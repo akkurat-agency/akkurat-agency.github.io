@@ -92,7 +92,7 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: #000;
+    background: linear-gradient(to bottom, #0A6139, #095834);
 }
 
 h1{
@@ -101,20 +101,25 @@ h1{
     font-family: "Medium";
 }
 
-img{
-    width: 25vw;
+.logo{
+    width: 50vw;
+    margin-bottom: 24px;
+}
+
+.back{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    max-height: 120px;
 }
 
 @media only screen and (max-width: 640px){
-    img{
-        width: 40vw;
-    }
 
     h1 {
         font-size: 48px;
     }
-    body{
-        margin-left: 28px;
+    .logo{
+        width: 70vw;
     }
 
 }
