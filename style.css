@@ -92,7 +92,7 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to bottom, #0A6139, #095834);
+    background-color: #F1F0E1;
 }
 
 h1{
@@ -106,13 +106,6 @@ h1{
     margin-bottom: 80px;
 }
 
-.back{
-    position: absolute;
-    width: 100vw;
-    bottom: 0;
-    max-height: 80px;
-    object-fit: cover;
-}
 
 @media only screen and (max-width: 640px){
 
